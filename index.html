@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleSavvy</title>
+    <link rel="shortcut icon" href="asset/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <input type="text" placeholder="Search Product...">
+            <div class="user-links">
+                <a href="#" id="sign-in-btn">Sign in</a>
+                <a href="#">Cart</a>
+                <a href="#">Wishlist</a>
+            </div>
+        </div>
+        <nav>
+            <!-- <div class="logo"><img src="asset/stylesavvy.png" alt="logo"></div> -->
+            <div class="logo"><img src="asset/model.png" alt=""> StyleSavvy</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Unrivalled Fashion House</h1>
+                <button>Shop now</button>
+            </div>
+            <div class="hero-image">
+                <img src="asset/fashion1.png" alt="Fashion Model">
+                <img src="asset/ethnic.png" alt="">
+            </div>
+        </section>
+
+        <section id="shop" class="section">
+            <h2>Shop</h2>
+            <div class="product-grid">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="product">
+                    <div class="image"><img src="asset/dresses.jpeg" alt="Dress"></div>
+                    <h3>Stylish Dress</h3>
+                    <p class="price">$49.99</p>
+                    <p class="rating">★★★★☆</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <div class="image"><img src="asset/sunglass.jpg" alt="Sunglasses"></div>
+                    <h3>Trendy Sunglasses</h3>
+                    <p class="price">$19.99</p>
+                    <p class="rating">★★★★★</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <div class="image"><img src="asset/accessories.jpeg" alt="Accessory"></div>
+                    <h3>Chic Accessory</h3>
+                    <p class="price">$29.99</p>
+                    <p class="rating">★★★★☆</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <div  class="image"><img src="asset/footwear.jpeg" alt="footwear"></div>
+                    <h3>Footwear</h3>
+                    <p class="price">$39.99</p>
+                    <p class="rating">★★★★☆</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <div class="image"><img src="asset/handbags.jpeg" alt="handbags"></div>
+                    <h3>Handbags</h3>
+                    <p class="price">$17.99</p>
+                    <p class="rating">★★★★★</p>
+                    <button>Add to cart</button>
+                </div>
+                
+                <button class="next" onclick="moveSlide(1)">&#10095;</button> 
+            </div>
+        </section>
+
+        <section id="about" class="section">
+        <div class="left">
+            <h2>About Us</h2>
+            <p>StyleSavvy was founded in 2024 with the mission to provide quality fashion at affordable prices. Our team is passionate about style and committed to making sure you find exactly what you're looking for.</p>
+            <div class="best-sellers">
+                <h3>Best Sellers</h3>
+                <div class="best-sellers-grid">
+                    <div class="best-seller">
+                        <img src="asset/best-seller1.jpeg" alt="Best Seller 1">
+                        <p>Best Seller 1</p>
+                    </div>
+                    <div class="best-seller">
+                        <img src="asset/best-seller2.jpeg" alt="Best Seller 2">
+                        <p>Best Seller 2</p>
+                    </div>
+                    <div class="best-seller">
+                        <img src="asset/best-seller3.jpeg" alt="Best Seller 3">
+                        <p>Best Seller 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="right">
+                <img src="asset/deal.jpeg" alt="">
+            </div>
+        </section>
+
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <div class="blog-grid">
+                <div class="blog-post">
+                    <a href="blog1.html">
+                        <img src="asset/fas.jpeg" alt="Blog 1">
+                        <p>Fashion Trends 2024</p>
+                    </a>
+                </div>
+                <div class="blog-post">
+                    <a href="blog2.html">
+                        <img src="asset/images.jpeg" alt="Blog 2">
+                        <p>Summer Styles</p>
+                    </a>
+                </div>
+                <div class="blog-post">
+                    <a href="blog3.html">
+                        <img src="asset/accessories blog.jpeg" alt="Blog 3">
+                        <p>Accessorize Right</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <img src="asset/phone1.png" alt="Phone">
+                    <p>Phone: 123-456-7890</p>
+                </div>
+                <div class="contact-item">
+                    <img src="asset/email.png" alt="Email">
+                    <p>Email: support@stylesavvy.com</p>
+                </div>
+                <div class="contact-item">
+                    <img src="asset/address.png" alt="Address">
+                    <p>Address: 123 Fashion St, Style City</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 StyleSavvy. All rights reserved.</p>
+    </footer>
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <img src="asset/close.png" alt="cross" class="close">
+            <form>
+                <h2>Login</h2>
+                
+                <input type="text" id="username" name="username" placeholder="Username" required>
+               
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <button type="submit" id="login">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
